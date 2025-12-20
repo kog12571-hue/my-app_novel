@@ -476,3 +476,19 @@ body {
     position: relative;
     border-radius: 5px;
 }
+/* ကတ်ပြားပုံစံကို အားလုံးတူအောင် ညှိခြင်း */
+.novel-cover {
+    width: 100%;
+    height: 150px;       /* အမြင့်ကို အောက်ကကတ်ပြားတွေနဲ့ ညီအောင် ထားလိုက်ပါ */
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+    background: #333;    /* ပုံမတက်ခင် အရောင်မှောင်ထားမယ် */
+}
+
+.cover-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   /* ပုံကို ဘောင်ထဲ အံကိုက်ဖြစ်အောင် ညှိမယ် */
+}
+
